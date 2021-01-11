@@ -1,0 +1,119 @@
+<! DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta name="author" content="Pushkin">
+	<title>Страница дизайнера</title>
+</head>
+<body>
+	<div>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="content">
+			<p>jhjhjmn jhgjgjgj </p><hr><p> fioeolee <font color="red">ofodksjh</font> <br> fhfhf <sub>ofofogsa</sub> klsdklk <sup>fdsdfs</sup> qweerr tuofn</p>
+			<table border="3" bgcolor="yellow" bordercolor="green">
+				<thead align="center">
+					<tr>
+						<th rowspan="2"><strong>Номер</strong></th>
+						<th><strong>ФИО</strong></th>
+						<th><strong>ЗП</strong></th>
+						<th colspan="2"><strong>Данные</strong></th>
+					</tr>
+					<tr>
+						
+						<th>Полное</th>
+						<th>руб</th>
+						<th>Год рождения</th>
+						<th>Год принятия на работу</th>
+					</tr>
+				</thead>
+				<tfoot align="center">
+					<tr>
+						<td>Something</td>
+						<td>Something2</td>
+						<td colspan="3">Something3</td>
+
+					</tr>
+				</tfoot>
+				<tbody>
+					
+					<tr>
+						<td>1</td>
+						<td rowspan="2">Иван Петров</td>
+						<td>25000</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<!--<td>Петя Иванов</td>-->
+						<td>35000</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Иван Иванов</td>
+						<td>15000</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td colspan="2">Степан Сидоров</td>
+						<!--<td>55000</td>-->
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Дмитрий Белкин</td>
+						<td>45000</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+				</tbody>
+			</table><br>
+			<!--Форма обратной связи-->
+			<form action="" method="GET" enctype="multipart/form-data">
+				<input type="text" name="Name" id="Name" tabindex="3">
+				<label for="Name">Name</label>
+				<!--<label><input type="text" name="Age" required tabindex="2">Age</label>-->
+				<label><input type="text" name="Phonenumber" tabindex="1" pattern="(8\d{10}|\+\d{11}|\+\d\(\d{3}\)\d{7}|\d{3}\s\d{3}\s\d{2}\s\d{2}|\D\d{3}\D\d{3}\D\d{2}\D\d{2})" required>Phone Number</label>
+				<input type="submit" value="Send">
+				<select name="City">
+					<option disabled selected>Choose something</option>
+					<option value="London">London</option>
+					<option value="Washington" >Washington</option>
+					<option value="Moscow">Moscow</option>
+				</select>
+				<input list="character">
+			   	<datalist id="character">
+			    	<option value="Чебурашка"></option>
+			    	<option value="Крокодил Гена"></option>
+			    	<option value="Шапокляк"></option>
+			   	</datalist><br>
+			   	<label><input type="checkbox" checked name="Dog">DOG</label>
+			   	
+			   	<fieldset>
+			   		<legend>Fruit</legend>
+			   		<label><input type="radio" name="Fruit" value="Apple">Apple</label>
+			   		<label><input type="radio" name="Fruit" value="Peach">Peach</label><br>
+				</fieldset><br>
+				<input type="file" name="Image" accept="image/png" size="20" multiple>
+			</form>
+			
+
+		</div>
+	</div>
+</body>
+</html>
